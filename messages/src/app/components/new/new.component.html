@@ -1,0 +1,24 @@
+<form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+  <div class="mb-4">
+    <label for="" class="block text-lg font-medium text-zinc-400"
+      >New message:</label
+    >
+    <input
+      formControlName="message"
+      name="txtNewMessage"
+      type="text"
+      class="p-2 w-full border rounded-md"
+      placeholder="Enter a new message"
+      autofocus
+      autocomplete="off"
+    />
+  </div>
+  <div class="flex justify-end">
+    <button
+      type="submit"
+      class="px-4 py-2 text-sm font-medium text-white bg-zinc-400 rounded-md"
+    >
+      Submit
+    </button>
+  </div>
+</form>

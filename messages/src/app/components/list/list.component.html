@@ -1,0 +1,16 @@
+<!-- <pre>
+  {{ messages$ | async | json }}
+</pre> -->
+
+<div class="container mx-auto mt-5">
+  <h1 class="mb-4 text-2xl font-semibold">Messages</h1>
+  <app-new />
+  <ul class="mt8">
+    <li
+      *ngFor="let message of messages$ | async"
+      class="flex items-center justify-between py-2 border-b border-zinc-400"
+    >
+    {{ message.content }}
+    </li>
+  </ul>
+</div>
