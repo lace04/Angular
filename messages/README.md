@@ -1,5 +1,7 @@
 # Messages
 
+Link web site: [Angular CLI](https://angular-rxdb.netlify.app/) version 1..
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
 
 ## Development server
